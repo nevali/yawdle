@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+</91725000bc33406c958cf5fa1a78cbf7#source>
+	a void:Dataset ;
+	void:uriSpace "http://dbpedia.org/resource/"^^xsd:anyURI ;
+	foaf:homepage <http://dbpedia.org> ;
+	dct:title "DBpedia" ;
+	rdfs:comment "A crowd-sourced community effort to extract structured information from Wikipedia"@en-gb ;
+	dct:description """DBpedia is a crowd-sourced community effort to extract structured information from Wikipedia and to make this information available on the Web."""@en-gb ;
+	dct:subject </reference#subject> ;
+	void:exampleResource <http://dbpedia.org/resource/Norwich> ;
+	dct:license <http://creativecommons.org/licenses/by-sa/3.0/> , <http://www.gnu.org/copyleft/fdl> .
+
+<http://dbpedia.org/resource/Norwich>
+	dct:title "Norwich"@en-gb .
+	
+<http://creativecommons.org/licenses/by-sa/3.0/> rdfs:label "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"@en .
+<http://www.gnu.org/copyleft/fdl> rdfs:label "GNU Free Documentation License"@en .
+
+</reference#subject> a skos:Concept ; dct:title "Reference, Education & Learning" .

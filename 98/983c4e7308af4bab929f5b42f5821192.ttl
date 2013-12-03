@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+</983c4e7308af4bab929f5b42f5821192#source>
+	a void:Dataset ;
+	dct:title "Freebase" ;	
+	rdfs:comment "An entity graph of people, places and things"@en-gb ;
+	dct:description "Freebase is Creative Commons-licensed repository of structured data describing millions of separate entities, with each assigned unique, persistent, identifiers."@en-gb ;
+	void:uriSpace "http://rdf.freebase.com/ns/"^^xsd:anyURI ;
+	foaf:homepage <http://www.freebase.com/> ;
+	dct:subject </reference#subject> ;
+	void:exampleResource <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009ed458c> ;
+	dct:license <http://creativecommons.org/licenses/by/2.5/> .
+
+<http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009ed458c>
+	dct:title "Florence + the Machine"@en-gb .
+
+<http://creativecommons.org/licenses/by/2.5/> rdfs:label "Creative Commons Attribution 2.5 Generic (CC BY 2.5)"@en .
+
+</reference#subject> a skos:Concept ; rdfs:label "Reference"@en-gb .

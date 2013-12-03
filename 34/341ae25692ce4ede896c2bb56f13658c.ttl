@@ -1,0 +1,26 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+
+</341ae25692ce4ede896c2bb56f13658c#source> a void:Dataset ;
+	dct:title """Archives Hub Linked Data""" ;
+	void:uriSpace """http://data.archiveshub.ac.uk/id/"""^^xsd:anyURI ;
+	void:sparqlEndpoint <http://data.archiveshub.ac.uk/sparql> ;
+	owl:sameAs <http://data.archiveshub.ac.uk/> ;
+	rdfs:comment """Linked data from the Jisc Archives Hub""" ;
+	dct:description """The LOCAH project was a Jisc-funded project under the jiscEXPO strand of its Information Environment programme. The main aims of the project were to make available data from the Archives Hub and from Copac in the form of Linked Data. The participants in the project were Mimas, UKOLN, Eduserv, Talis, and OCLC Research. The project ran from August 2010 until July 2011.""" ;
+	void:exampleResource <http://data.archiveshub.ac.uk/id/repository/gb1086> ;
+	dct:subject </reference#subject> ;
+	dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	foaf:homepage <http://data.archiveshub.ac.uk/> .
+
+<http://data.archiveshub.ac.uk/id/repository/gb1086> rdfs:label """The Women’s Art Library (MAKE)""" .
+
+</reference#subject> rdfs:label """Reference, Education & Learning"""@en-gb .
+
+<http://creativecommons.org/publicdomain/zero/1.0/> rdfs:label """CC0 1.0 Universal (CC0 1.0)""" .

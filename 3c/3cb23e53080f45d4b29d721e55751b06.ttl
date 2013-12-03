@@ -1,0 +1,30 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+</3cb23e53080f45d4b29d721e55751b06#source>
+	a void:Dataset ;
+	owl:sameAs <http://xmlns.com/foaf/0.1/> ;
+	void:uriSpace "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+	foaf:homepage <http://xmlns.com/foaf/spec/> ;
+	void:vocabulary <http://www.w3.org/2002/07/owl#> ;
+	dct:title "Friend of a Friend (FOAF) vocabulary" ;
+	rdfs:comment "A vocabulary allowing people to describe themselves and their relationships with others."@en-gb ;
+	dct:description """A vocabulary allowing people to describe themselves and their relationships with others. FOAF (“friend of a friend”) is one of the most widely-used vocabularies in the linked data world."""@en-gb ;
+	dct:subject </vocabularies#subject> ;
+	void:exampleResource <http://xmlns.com/foaf/0.1/primaryTopic> ;
+	dct:license <http://creativecommons.org/licenses/by/1.0/> .
+
+<http://xmlns.com/foaf/0.1/primaryTopic>
+	a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+	dct:title "primary topic" .
+
+<http://www.w3.org/2002/07/owl#> dct:title "OWL" .
+
+<http://creativecommons.org/licenses/by/1.0/> rdfs:label "Creative Commons Attribution 1.0 Generic (CC BY 1.0)"@en .
+
+</vocabularies#subject> a skos:Concept ; dct:title "Vocabularies" .

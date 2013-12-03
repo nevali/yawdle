@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+</b024f77f7a7343339a34244e467f356c#source>
+	a void:Dataset ;
+	dct:title """New York Times Linked Open Data"""@en ;
+	rdfs:comment """The New York Times’ news vocabulary, published as linked data"""@en ;
+	foaf:homepage <http://data.nytimes.com/> ;
+	dct:description """The New York Times has published approximately ten thousand subject headings (which are used to classify its news articles) as linked open data, including a large number of people and organisations."""@en ;
+	void:uriSpace "http://data.nytimes.com/"^^xsd:anyURI ;
+	dct:license <http://creativecommons.org/licenses/by/3.0/us/> ;
+	dct:subject </news#subject> , </reference#subject> ;
+	void:exampleResource <http://data.nytimes.com/51535120590522012773> .
+
+<http://data.nytimes.com/51535120590522012773> dct:title """Orwell, George""" .
+
+</news#subject> rdfs:label "News & Current Affairs" .
+</reference#subject> rdfs:label "Reference, Education & Learning"@en .
+
+<http://creativecommons.org/licenses/by/3.0/us/> rdfs:label "Creative Commons Attribution 3.0 United States (CC BY 3.0 US)" .

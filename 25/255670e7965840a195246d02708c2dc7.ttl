@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+</255670e7965840a195246d02708c2dc7#source>
+		a void:Dataset ;
+		dct:title """RDF Vocabulary Description Language 1.0: RDF Schema"""@en ;
+		rdfs:comment """The basic model for using RDF to describe RDF vocabularies"""@en ;
+		foaf:homepage <http://www.w3.org/TR/rdf-schema/> ;
+		void:uriSpace "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+		dct:license <http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231> ;
+		dct:subject </vocabularies#subject> ;
+		void:exampleResource <http://www.w3.org/2000/01/rdf-schema#comment> .
+
+<http://www.w3.org/2000/01/rdf-schema#comment> dct:title """Comment property""" .
+
+</vocabularies#subject> rdfs:label "Vocabularies"@en .
+
+<http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231> rdfs:label "W3C Document License"@en .

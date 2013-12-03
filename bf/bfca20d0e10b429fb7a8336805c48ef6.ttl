@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+</bfca20d0e10b429fb7a8336805c48ef6#source>
+	a void:Dataset ;
+	dct:title """Europeana"""@en ;
+	rdfs:comment """Europeana aggregates data about cultural heritage collections from across the EU"""@en ;
+	foaf:homepage <http://pro.europeana.eu/datasets> ;
+	dct:description """Europeana is an EU-funded project to collate data about cultural assets from collections held by institutions (such as libraries, museums, art galleries) across the EU. Europeana data contains descriptions of in excess of twenty million assets."""@en ;
+	owl:sameAs <http://data.europeana.eu/> ;
+	void:uriSpace "http://data.europeana.eu/"^^xsd:anyURI ;
+	dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	dct:subject </arts-entertainment#subject> ;
+	void:exampleResource <http://data.europeana.eu/aggregation/europeana/92037/25F9104787668C4B5148BE8E5AB8DBEF5BE5FE03> .
+
+<http://data.europeana.eu/aggregation/europeana/92037/25F9104787668C4B5148BE8E5AB8DBEF5BE5FE03> dct:title """92037_Ag_EU_TEL_a0444_BritishLibrary""" .
+
+</arts-entertainment#subject> rdfs:label "Arts & Entertainment"@en .

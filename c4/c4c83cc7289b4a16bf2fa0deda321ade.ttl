@@ -1,0 +1,25 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+</c4c83cc7289b4a16bf2fa0deda321ade#source>
+	a void:Dataset ;
+	owl:sameAs <http://purl.org/dc/terms/> ;
+	dct:title """Dublin Core Metadata Terms"""@en ;
+	rdfs:comment """The metadata terms maintained by the Dublin Core Metadata Initiative"""@en ;
+	foaf:homepage <http://dublincore.org/documents/dcmi-terms/> ;
+	dct:description """The metadata terms maintained by the Dublin Core Metadata Initiative, including properties, vocabulary encoding schemes, syntax encoding schemes, and classes."""@en ;
+	void:uriSpace "http://purl.org/dc/terms/"^^xsd:anyURI ;
+	dct:subject </vocabularies#subject> ;
+	dct:license <http://creativecommons.org/licenses/by/3.0/> ;
+	void:exampleResource <http://purl.org/dc/terms/description> .
+
+<http://purl.org/dc/terms/description> dct:title """Description""" .
+
+</vocabularies#subject> rdfs:label "Vocabularies"@en .
+
+<http://creativecommons.org/licenses/by/3.0/> rdfs:label "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"@en .

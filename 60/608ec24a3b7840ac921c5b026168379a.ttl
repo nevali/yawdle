@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+</608ec24a3b7840ac921c5b026168379a#source>
+	a void:Dataset ;
+	void:uriSpace "http://www.bbc.co.uk/programmes/"^^xsd:anyURI ;
+	foaf:homepage <http://www.bbc.co.uk/programmes> ;
+	void:vocabulary <http://purl.org/ontology/programmes> ;
+	dct:title "BBC Programmes" ;
+	rdfs:comment "The BBC’s online programme catalogue"@en-gb ;
+	dct:description """The BBC‘s online programme catalogue, including schedule information, extended synopses and cast and crew information for programmes broadcast by the BBC national and regional services."""@en-gb ;
+	dct:subject </arts-entertainment#subject> ;
+	dct:subject </arts-entertainment/radio#subject> ;
+	dct:subject </arts-entertainment/tv#subject> ;
+	void:exampleResource <http://www.bbc.co.uk/programmes/p00wpvpn#programme> ;
+	dct:license <http://backstage.bbc.co.uk/archives/2005/01/terms_of_use.html> .
+
+<http://www.bbc.co.uk/programmes/p00wpvpn#programme>
+	a <http://purl.org/ontology/po/Series> ;
+	dct:title "Treasures of Ancient Rome"@en-gb .
+
+<http://backstage.bbc.co.uk/archives/2005/01/terms_of_use.html> rdfs:label "The BBC Backstage Terms of Use"@en .
+
+</arts-entertainment/#subject> a skos:Concept ; rdfs:label "Arts & Entertainment"@en-gb .
+</arts-entertainment/radio#subject> a skos:Concept ; rdfs:label "Radio"@en-gb .
+</arts-entertainment/tv#subject> a skos:Concept ; rdfs:label "Television"@en-gb .

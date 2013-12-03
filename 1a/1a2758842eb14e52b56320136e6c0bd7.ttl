@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+
+</1a2758842eb14e52b56320136e6c0bd7#source> a void:Dataset ;
+	dct:title """Ordnance Survey Linked Data""" ;
+	void:uriSpace """http://data.ordnancesurvey.co.uk/"""^^xsd:anyURI ;
+	ore:isDescribedBy <http://data.ordnancesurvey.co.uk/> ;
+	void:sparqlEndpoint <http://api.talis.com/stores/ordnance-survey/services/sparql> ;
+	owl:sameAs <http://data.ordnancesurvey.co.uk/> ;
+	void:exampleResource <http://data.ordnancesurvey.co.uk/id/7000000000037256> ;
+	void:exampleResource <http://data.ordnancesurvey.co.uk/id/postcodeunit/SO164GU> ;
+	dct:subject </reference/geo#subject> ;
+	dct:subject </law-government#subject> ;
+	dct:license <http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/docs/licence.pdf> ;
+	dct:license <http://www.nationalarchives.gov.uk/doc/open-government-licence/> ;
+	foaf:homepage <http://data.ordnancesurvey.co.uk/> .
+
+<http://data.ordnancesurvey.co.uk/id/7000000000037256> rdfs:label """The City of Southampton""" .
+<http://data.ordnancesurvey.co.uk/id/postcodeunit/SO164GU> rdfs:label """SO16 4GU""" .
+
+</reference/geo#subject> rdfs:label """Geographic"""@en-gb .
+</law-government#subject> rdfs:label """Law & Government"""@en-gb .
+
+<http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/docs/licence.pdf> rdfs:label """OS OpenData""" .
+<http://www.nationalarchives.gov.uk/doc/open-government-licence/> rdfs:label """Open Government Licence""" .
