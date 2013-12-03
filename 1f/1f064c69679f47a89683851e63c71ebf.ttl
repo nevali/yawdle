@@ -1,0 +1,21 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+
+</1f064c69679f47a89683851e63c71ebf#source> a void:Dataset ;
+	dct:title """Alpine Ski Racers of Austria""" ;
+	void:sparqlEndpoint <http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam> ;
+	void:exampleResource <http://vocabulary.semantic-web.at/AustrianSkiTeam/54> ;
+	dct:license <http://www.gnu.org/copyleft/fdl> ;
+	foaf:homepage <http://vocabulary.semantic-web.at/AustrianSkiTeam> ;
+	dct:subject </recreation#subject> , </recreation/sport#subject> .
+
+<http://www.gnu.org/copyleft/fdl> rdfs:label """GNU Free Documentation License (GFDL)""" .
+
+</recreation#subject> rdfs:label "Recreation"@en .
+</recreation/sport#subject> rdfs:label "Sport"@en .
