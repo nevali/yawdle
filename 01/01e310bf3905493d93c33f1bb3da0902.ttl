@@ -13,8 +13,10 @@
 	void:exampleResource <http://dbtropes.org/resource/Main/TheMatrix> ;
 	dct:license <http://creativecommons.org/licenses/by-sa/1.0/> ;
 	foaf:homepage <http://dbtropes.org/> ;
-	dct:subject </arts-entertainment#subject> .
+	dct:subject </arts-entertainment#subject> ;
+	dct:subject </by-license/cc/by/sa#subject> .
 
 <http://creativecommons.org/licenses/by-sa/1.0/> rdfs:label """Creative Commons Attribution Share-Alike""" .
 
 </arts-entertainment#subject> rdfs:label "Arts & Entertainment"@en .
+</by-license/cc/by/sa#subject> rdfs:label "CC BY-SA (ShareAlike)"@en .

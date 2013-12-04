@@ -15,9 +15,11 @@
 	dct:description """BBC Wildlife Finder contains information about more than a thousand different kinds of animal, more than fifty different habitats and over a hundred adaptations and behaviours."""@en ;
 	void:uriSpace "http://www.bbc.co.uk/nature/"^^xsd:anyURI ;
 	dct:subject </reference#subject> , </science-nature#subject> ;
-	void:exampleResource <http://www.bbc.co.uk/nature/life/Common_Toad#species> .
+	void:exampleResource <http://www.bbc.co.uk/nature/life/Common_Toad#species> ;
+	dct:subject </by-license/none#subject> .
 
 <http://www.bbc.co.uk/nature/life/Common_Toad#species> dct:title """Common Toad""" .
 
 </reference#subject> rdfs:label "Reference, Education & Learning"@en .
 </science-nature#subject> rdfs:label "Science & Nature"@en .
+</by-license/none#subject> rdfs:label "No clear licensing"@en .

@@ -15,7 +15,8 @@
 	dct:description """DBpedia is a crowd-sourced community effort to extract structured information from Wikipedia and to make this information available on the Web."""@en-gb ;
 	dct:subject </reference#subject> ;
 	void:exampleResource <http://dbpedia.org/resource/Norwich> ;
-	dct:license <http://creativecommons.org/licenses/by-sa/3.0/> , <http://www.gnu.org/copyleft/fdl> .
+	dct:license <http://creativecommons.org/licenses/by-sa/3.0/> , <http://www.gnu.org/copyleft/fdl> ;
+	dct:subject </by-license/cc/by/sa#subject>, </by-license/fsf/gfdl#subject> .
 
 <http://dbpedia.org/resource/Norwich>
 	dct:title "Norwich"@en-gb .
@@ -24,3 +25,5 @@
 <http://www.gnu.org/copyleft/fdl> rdfs:label "GNU Free Documentation License"@en .
 
 </reference#subject> a skos:Concept ; dct:title "Reference, Education & Learning" .
+</by-license/cc/by/sa#subject> rdfs:label "CC BY-SA (ShareAlike)"@en .
+</by-license/fsf/gfdl#subject> rdfs:label "GNU Free Documentation License"@en .

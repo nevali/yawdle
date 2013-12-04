@@ -17,7 +17,8 @@
 	dct:subject </arts-entertainment/tv#subject> ;
 	dct:subject </arts-entertainment/radio#subject> ;
 	dct:subject </reference/education#subject> ;
-	void:exampleResource <http://data.open.ac.uk/bbc/b00mfl7n> .
+	void:exampleResource <http://data.open.ac.uk/bbc/b00mfl7n> ;
+	dct:subject </by-license/none#subject> .
 
 <http://data.open.ac.uk/bbc/b00mfl7n>
 	dct:title "Frozen Planet"@en-gb .
@@ -26,3 +27,4 @@
 </arts-entertainment/tv#subject> a skos:Concept ; rdfs:label "Television"@en-gb .
 </arts-entertainment/radio#subject> a skos:Concept ; rdfs:label "Radio"@en-gb .
 </reference/education#subject> a skos:Concept ; rdfs:label "Education"@en-gb .
+</by-license/none#subject> rdfs:label "No clear licensing"@en .

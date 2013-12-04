@@ -13,7 +13,7 @@
 	dct:description "GeoNames is a hierarchical database of geographical entities containing information about more than ten million geographical entities published under a Creative Commons license."@en-gb ;
 	void:uriSpace "http://sws.geonames.org/"^^xsd:anyURI ;
 	foaf:homepage <http://www.geonames.org/> ;
-	dct:subject </reference#subject>, </reference/geo#subject> ;
+	dct:subject </reference#subject>, </reference/geo#subject> , </by-license/cc/by#subject> ;
 	void:exampleResource <http://sws.geonames.org/146669/> ;
 	void:openSearchDescription <http://www.geonames.org/opensearch-description.xml> ;
 	dct:license <http://creativecommons.org/licenses/by/3.0/> .
@@ -25,3 +25,4 @@
 
 </reference#subject> a skos:Concept ; rdfs:label "Reference"@en-gb .
 </reference/geo#subject> a skos:Concept ; rdfs:label "Geographic"@en-gb .
+</by-license/cc/by#subject> rdfs:label "CC BY (Attribution)"@en .

@@ -15,7 +15,8 @@
 	foaf:homepage <http://www.freebase.com/> ;
 	dct:subject </reference#subject> ;
 	void:exampleResource <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009ed458c> ;
-	dct:license <http://creativecommons.org/licenses/by/2.5/> .
+	dct:license <http://creativecommons.org/licenses/by/2.5/> ;
+	dct:subject </by-license/cc/by#subject> .
 
 <http://rdf.freebase.com/ns/guid.9202a8c04000641f8000000009ed458c>
 	dct:title "Florence + the Machine"@en-gb .
@@ -23,3 +24,4 @@
 <http://creativecommons.org/licenses/by/2.5/> rdfs:label "Creative Commons Attribution 2.5 Generic (CC BY 2.5)"@en .
 
 </reference#subject> a skos:Concept ; rdfs:label "Reference"@en-gb .
+</by-license/cc/by#subject> rdfs:label "CC BY (Attribution)"@en .

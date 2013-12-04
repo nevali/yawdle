@@ -14,10 +14,12 @@
 		void:uriSpace "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
 		dct:license <http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231> ;
 		dct:subject </vocabularies#subject> ;
-		void:exampleResource <http://www.w3.org/2000/01/rdf-schema#comment> .
+		void:exampleResource <http://www.w3.org/2000/01/rdf-schema#comment> ;
+		dct:subject </by-license/w3c#subject> .
 
 <http://www.w3.org/2000/01/rdf-schema#comment> dct:title """Comment property""" .
 
 </vocabularies#subject> rdfs:label "Vocabularies"@en .
+</by-license/w3c#subject> rdfs:label "W3C Document License"@en .
 
 <http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231> rdfs:label "W3C Document License"@en .

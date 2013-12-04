@@ -13,8 +13,10 @@
 	foaf:homepage <http://www.facebook.com/> ;
 	void:uriSpace "http://graph.facebook.com/"^^xsd:anyURI ;
 	dct:subject </computing/social-networking#subject> ;
-	void:exampleResource <http://graph.facebook.com/107850102581157#> .
+	void:exampleResource <http://graph.facebook.com/107850102581157#> ;
+	dct:subject </by-license/none#subject> .
 
 <http://graph.facebook.com/107850102581157#> dct:title """W3C""" .
 
 </computing/social-networking#subject> rdfs:label "Social Networking"@en .
+</by-license/none#subject> rdfs:label "No clear licensing"@en .

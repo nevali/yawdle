@@ -17,7 +17,8 @@
 	dct:description """A vocabulary allowing people to describe themselves and their relationships with others. FOAF (“friend of a friend”) is one of the most widely-used vocabularies in the linked data world."""@en-gb ;
 	dct:subject </vocabularies#subject> ;
 	void:exampleResource <http://xmlns.com/foaf/0.1/primaryTopic> ;
-	dct:license <http://creativecommons.org/licenses/by/1.0/> .
+	dct:license <http://creativecommons.org/licenses/by/1.0/> ;
+	dct:subject </by-license/cc/by#subject> .
 
 <http://xmlns.com/foaf/0.1/primaryTopic>
 	a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
@@ -27,4 +28,5 @@
 
 <http://creativecommons.org/licenses/by/1.0/> rdfs:label "Creative Commons Attribution 1.0 Generic (CC BY 1.0)"@en .
 
-</vocabularies#subject> a skos:Concept ; dct:title "Vocabularies" .
+</vocabularies#subject> a skos:Concept ; dct:title "Vocabularies"@en .
+</by-license/cc/by#subject> rdfs:label "CC BY (Attribution)"@en .

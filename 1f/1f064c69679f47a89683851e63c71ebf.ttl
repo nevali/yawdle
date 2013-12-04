@@ -13,9 +13,11 @@
 	void:exampleResource <http://vocabulary.semantic-web.at/AustrianSkiTeam/54> ;
 	dct:license <http://www.gnu.org/copyleft/fdl> ;
 	foaf:homepage <http://vocabulary.semantic-web.at/AustrianSkiTeam> ;
-	dct:subject </recreation#subject> , </recreation/sport#subject> .
+	dct:subject </recreation#subject> , </recreation/sport#subject> ;
+	dct:subject </by-license/fsf/gfdl#subject> .
 
 <http://www.gnu.org/copyleft/fdl> rdfs:label """GNU Free Documentation License (GFDL)""" .
 
 </recreation#subject> rdfs:label "Recreation"@en .
 </recreation/sport#subject> rdfs:label "Sport"@en .
+</by-license/fsf/gfdl#subject> rdfs:label "GNU Free Documentation License"@en .

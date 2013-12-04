@@ -1,0 +1,24 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+
+</2cf258d2687e4c7e8f96302625dfce7b#source> a void:Dataset ;
+	dct:title """ERA - Australian Research Council publication ratings (RKBExplorer)""" ;
+	void:uriSpace """http://era.rkbexplorer.com/id/"""^^xsd:anyURI ;
+	ore:isDescribedBy <http://era.rkbexplorer.com/models/void.ttl> ;
+	void:sparqlEndpoint <http://era.rkbexplorer.com/sparql/> ;
+	void:exampleResource <http://era.rkbexplorer.com/id/ERAID-15590> ;
+	foaf:homepage <http://era.rkbexplorer.com> ;
+	dct:subject </science-nature#subject> , </by-license/multiple#subject> .
+
+</science-nature#subject> rdfs:label "Science & Nature"@en .
+</by-license/multiple#subject> rdfs:label "Per-resource licensing"@en .
+
+
+
+

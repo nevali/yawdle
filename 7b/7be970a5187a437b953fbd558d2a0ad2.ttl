@@ -15,7 +15,8 @@
 	foaf:homepage <http://www.legislation.gov.uk> ;
 	dct:subject </law-government#subject> ;
 	void:exampleResource <http://www.legislation.gov.uk/id/ukpga/1998/29> ;
-	dct:license <http://reference.data.gov.uk/id/open-government-licence> .
+	dct:license <http://reference.data.gov.uk/id/open-government-licence> ;
+	dct:subject </by-license/ogl#subject> .
 
 <http://www.legislation.gov.uk/id/ukpga/1998/29>
 	dct:title "Data Protection Act 1998"@en-gb .
@@ -23,3 +24,4 @@
 <http://reference.data.gov.uk/id/open-government-licence> rdfs:label "Open Government Licence"@en-gb .
 
 </law-government#subject> a skos:Concept ; rdfs:label "Law & Government"@en-gb .
+</by-license/ogl#subject> rdfs:label "Open Government Licence"@en-gb .

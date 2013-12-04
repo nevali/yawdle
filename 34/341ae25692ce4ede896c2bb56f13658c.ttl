@@ -17,10 +17,12 @@
 	void:exampleResource <http://data.archiveshub.ac.uk/id/repository/gb1086> ;
 	dct:subject </reference#subject> ;
 	dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
-	foaf:homepage <http://data.archiveshub.ac.uk/> .
+	foaf:homepage <http://data.archiveshub.ac.uk/> ;
+	dct:subject </by-license/zero#subject> .
 
 <http://data.archiveshub.ac.uk/id/repository/gb1086> rdfs:label """The Women’s Art Library (MAKE)""" .
 
 </reference#subject> rdfs:label """Reference, Education & Learning"""@en-gb .
+</by-license/zero#subject> rdfs:label "Public Domain"@en .
 
 <http://creativecommons.org/publicdomain/zero/1.0/> rdfs:label """CC0 1.0 Universal (CC0 1.0)""" .
