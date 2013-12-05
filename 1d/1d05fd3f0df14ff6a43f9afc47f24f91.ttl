@@ -16,8 +16,3 @@
 	foaf:homepage <http://id.loc.gov/> .
 
 <http://id.loc.gov/authorities/subjects/sh87001447> rdfs:label """Unison Author Language (Computer program language)""" .
-
-</reference#subject> rdfs:label """Reference, Education & Learning"""@en-gb .
-</by-license/zero#subject> rdfs:label "Public Domain"@en .
-
-<http://id.loc.gov/about/> rdfs:label """Library of Congress Public Domain""" .

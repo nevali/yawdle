@@ -19,8 +19,3 @@
 	dct:subject </by-license/cc/by#subject> .
 
 <http://data.nytimes.com/51535120590522012773> dct:title """Orwell, George""" .
-
-</news#subject> rdfs:label "News & Current Affairs" .
-</reference#subject> rdfs:label "Reference, Education & Learning"@en .
-</by-license/cc/by#subject> rdfs:label "CC BY (Attribution)"@en .
-<http://creativecommons.org/licenses/by/3.0/us/> rdfs:label "Creative Commons Attribution 3.0 United States (CC BY 3.0 US)" .

@@ -16,9 +16,6 @@
 	foaf:homepage <http://era.rkbexplorer.com> ;
 	dct:subject </science-nature#subject> , </by-license/multiple#subject> .
 
-</science-nature#subject> rdfs:label "Science & Nature"@en .
-</by-license/multiple#subject> rdfs:label "Per-resource licensing"@en .
-
 
 
 

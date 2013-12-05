@@ -24,10 +24,3 @@
 <http://www.bbc.co.uk/programmes/p00wpvpn#programme>
 	a <http://purl.org/ontology/po/Series> ;
 	dct:title "Treasures of Ancient Rome"@en-gb .
-
-<http://backstage.bbc.co.uk/archives/2005/01/terms_of_use.html> rdfs:label "The BBC Backstage Terms of Use"@en .
-
-</arts-entertainment/#subject> a skos:Concept ; rdfs:label "Arts & Entertainment"@en-gb .
-</arts-entertainment/radio#subject> a skos:Concept ; rdfs:label "Radio"@en-gb .
-</arts-entertainment/tv#subject> a skos:Concept ; rdfs:label "Television"@en-gb .
-</by-license/backstage#subject> rdfs:label "BBC Backstage Licence"@en-gb .

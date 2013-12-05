@@ -22,9 +22,3 @@
 
 <http://data.open.ac.uk/bbc/b00mfl7n>
 	dct:title "Frozen Planet"@en-gb .
-
-</arts-entertainment#subject> a skos:Concept ; rdfs:label "Arts & Entertainment"@en-gb .
-</arts-entertainment/tv#subject> a skos:Concept ; rdfs:label "Television"@en-gb .
-</arts-entertainment/radio#subject> a skos:Concept ; rdfs:label "Radio"@en-gb .
-</reference/education#subject> a skos:Concept ; rdfs:label "Education"@en-gb .
-</by-license/none#subject> rdfs:label "No clear licensing"@en .

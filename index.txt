@@ -1,21 +1,21 @@
-2bb17c00c44b4b51b2ec14859975b702	DBTune.org Jamendo RDF Server
-1f064c69679f47a89683851e63c71ebf	Alpine Ski Racers of Austria
 01e310bf3905493d93c33f1bb3da0902	DBTropes
+1a2758842eb14e52b56320136e6c0bd7	Ordnance Survey Linked Data
+1d05fd3f0df14ff6a43f9afc47f24f91	Library of Congress Subject Headings
+1f064c69679f47a89683851e63c71ebf	Alpine Ski Racers of Austria
+255670e7965840a195246d02708c2dc7	RDF Vocabulary Description Language 1.0: RDF Schema
+2b15b4ce6ad54633b55662ff6319e28c	GeoNames
+2bb17c00c44b4b51b2ec14859975b702	DBTune.org Jamendo RDF Server
+2cf258d2687e4c7e8f96302625dfce7b	ERA - Australian Research Council publication ratings (RKBExplorer)
+341ae25692ce4ede896c2bb56f13658c	Archives Hub Linked Data
+3a2767787a384830b5791667d05a9438	dbpedia lite
+3cb23e53080f45d4b29d721e55751b06	Friend of a Friend (FOAF) vocabulary
+608ec24a3b7840ac921c5b026168379a	BBC Programmes
+7be970a5187a437b953fbd558d2a0ad2	legislation.gov.uk
+84194093e7fc40fab70e277c208efed2	OU on the BBC
+91725000bc33406c958cf5fa1a78cbf7	DBpedia
+983c4e7308af4bab929f5b42f5821192	Freebase
+b024f77f7a7343339a34244e467f356c	New York Times Linked Open Data
 bfca20d0e10b429fb7a8336805c48ef6	Europeana
 c4c83cc7289b4a16bf2fa0deda321ade	Dublin Core Metadata Terms
-341ae25692ce4ede896c2bb56f13658c	Archives Hub Linked Data
-ed5d5e97a9a84c25a6343460a3e3d103	BBC Wildlife Finder
-91725000bc33406c958cf5fa1a78cbf7	DBpedia
-255670e7965840a195246d02708c2dc7	RDF Vocabulary Description Language 1.0: RDF Schema
-1a2758842eb14e52b56320136e6c0bd7	Ordnance Survey Linked Data
 dd76448dc3a046b1b8743d1f8088a894	Facebook Open Graph
-b024f77f7a7343339a34244e467f356c	New York Times Linked Open Data
-983c4e7308af4bab929f5b42f5821192	Freebase
-7be970a5187a437b953fbd558d2a0ad2	legislation.gov.uk
-608ec24a3b7840ac921c5b026168379a	BBC Programmes
-3cb23e53080f45d4b29d721e55751b06	Friend of a Friend (FOAF) vocabulary
-3a2767787a384830b5791667d05a9438	dbpedia lite
-84194093e7fc40fab70e277c208efed2	OU on the BBC
-2cf258d2687e4c7e8f96302625dfce7b	ERA - Australian Research Council publication ratings (RKBExplorer)
-1d05fd3f0df14ff6a43f9afc47f24f91	Library of Congress Subject Headings
-2b15b4ce6ad54633b55662ff6319e28c	GeoNames
+ed5d5e97a9a84c25a6343460a3e3d103	BBC Wildlife Finder

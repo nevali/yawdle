@@ -20,6 +20,3 @@
 	dct:subject </by-license/zero#subject> .
 
 <http://data.europeana.eu/aggregation/europeana/92037/25F9104787668C4B5148BE8E5AB8DBEF5BE5FE03> dct:title """92037_Ag_EU_TEL_a0444_BritishLibrary""" .
-
-</arts-entertainment#subject> rdfs:label "Arts & Entertainment"@en .
-</by-license/zero#subject> rdfs:label "Public Domain"@en .

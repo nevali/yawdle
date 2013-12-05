@@ -24,10 +24,3 @@
 
 <http://data.ordnancesurvey.co.uk/id/7000000000037256> rdfs:label """The City of Southampton""" .
 <http://data.ordnancesurvey.co.uk/id/postcodeunit/SO164GU> rdfs:label """SO16 4GU""" .
-
-</reference/geo#subject> rdfs:label """Geographic"""@en-gb .
-</law-government#subject> rdfs:label """Law & Government"""@en-gb .
-</by-license/ogl#subject> rdfs:label "Open Government Licence"@en-gb .
-
-<http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/docs/licence.pdf> rdfs:label """OS OpenData""" .
-<http://www.nationalarchives.gov.uk/doc/open-government-licence/> rdfs:label """Open Government Licence""" .

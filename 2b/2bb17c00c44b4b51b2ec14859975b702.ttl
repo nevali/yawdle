@@ -15,8 +15,5 @@
 	foaf:homepage <http://dbtune.org/jamendo/> ;
 	dct:subject </arts-entertainment#subject> , </arts-entertainment/music#subject> .
 
-</arts-entertainment#subject> rdfs:label "Arts & Entertainment"@en .
-</arts-entertainment/music#subject> rdfs:label "Music"@en .
-
 
 

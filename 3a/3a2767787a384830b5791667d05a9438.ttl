@@ -21,8 +21,3 @@
 
 <http://dbpedialite.org/things/74325#id>
 	dct:title "The Magic Roundabout"@en-gb .
-
-<http://creativecommons.org/licenses/by-sa/3.0/> rdfs:label "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"@en .
-
-</reference#subject> a skos:Concept ; rdfs:label "Reference"@en-gb .
-</by-license/cc/by/sa#subject> rdfs:label "CC BY-SA (ShareAlike)"@en .

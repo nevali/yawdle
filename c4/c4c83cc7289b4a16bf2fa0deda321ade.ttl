@@ -20,8 +20,3 @@
 	dct:subject </by-license/cc/by#subject> .
 
 <http://purl.org/dc/terms/description> dct:title """Description""" .
-
-</vocabularies#subject> rdfs:label "Vocabularies"@en .
-</by-license/cc/by#subject> rdfs:label "CC BY (Attribution)"@en .
-
-<http://creativecommons.org/licenses/by/3.0/> rdfs:label "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"@en .
