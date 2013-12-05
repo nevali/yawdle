@@ -1,0 +1,16 @@
+http://backstage.bbc.co.uk/archives/2005/01/terms_of_use.html	backstage	The BBC Backstage Terms of Use
+http://creativecommons.org/publicdomain/zero/1.0/	zero	CC0 1.0 Universal (CC0 1.0)
+http://creativecommons.org/licenses/by/1.0/	cc/by	CC Attribution 1.0 Generic (CC BY 1.0)
+http://creativecommons.org/licenses/by/2.5/	cc/by	CC Attribution 2.5 Generic (CC BY 2.5)
+http://creativecommons.org/licenses/by/3.0/	cc/by	CC Attribution 3.0 Unported (CC BY 3.0)
+http://creativecommons.org/licenses/by/3.0/us/	cc/by	CC Attribution 3.0 United States (CC BY 3.0 US)
+http://creativecommons.org/licenses/by-sa/1.0/	cc/by/sa	CC Attribution-ShareAlike 1.0 Generic (CC BY-SA 1.0)
+http://creativecommons.org/licenses/by-sa/3.0/	cc/by/sa	CC Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+http://id.loc.gov/about/	zero	Library of Congress Public Domain
+http://www.w3.org/Consortium/Legal/2002/copyright-documents-20021231	w3c	W3C Document License
+http://www.gnu.org/copyleft/fdl	fsf/gfdl	GNU Free Documentation License
+http://www.ordnancesurvey.co.uk/oswebsite/opendata/licence/docs/licence.pdf	ogl	OS OpenData Licence
+http://www.nationalarchives.gov.uk/doc/open-government-licence/	ogl	Open Government Licence (OGL)
+http://reference.data.gov.uk/id/open-government-licence		ogl	Open Government Licence (OGL)
+http://bbcarchdev.github.io/licences/dps/1.0	dpsl	Digital Public Space Licence, version 1.0
+http://bbcarchdev.github.io/licences/dps/1.0#id	dpsl	Digital Public Space Licence, version 1.0

@@ -1,0 +1,60 @@
+## This file contains the category tree for Yawdle.
+##
+## Each line is tab-delimited fields, indented with tabs to indicate depth.
+##
+## The first column is the URI path component (e.g., 'business'), and the
+## second is the human-readable title in English (e.g., "Business").
+##
+## More columns will be added in future.
+
+arts-entertainment	Arts & Entertainment
+	radio	Radio
+	music	Music
+	tv	Television
+	theatre	Theatre
+	opera	Opera
+	dance	Dance
+	drama	Drama
+
+business	Business & Economics
+	shopping	Shopping
+
+computing	Computing & The Internet
+	social-networking	Social Networking
+
+law-government	Law & Government
+
+news	News & Current Afairs
+
+recreation	Recreation
+	sport	Sport
+
+reference	Reference, Education & Learning
+	education	Education
+	geo	Geographic
+
+society	Society
+
+science-nature	Science & Nature
+
+sport-recreation	Sport & Recreation
+
+vocabularies	Vocabularies
+
+by-license	Browse by license
+	cc	Creative Commons
+		by	CC BY (Attribution)
+			sa	CC BY-SA (ShareAlike)
+			nd	CC BY-ND (NoDerivs)
+			nc	CC BY-NC (NonCommercial)
+				sa	CC BY-NC-SA (NonCommercial-ShareAlike)
+				nd	CC BY-NC-ND (NonCommercial-NoDerivs)
+	dpsl	Digital Public Space Licence
+	ogl	Open Government Licence
+	fsf	Free Software Foundation
+		gfdl	GNU Free Documentation License
+	none	No clear licensing
+	multiple	Per-resource licensing
+	zero	Public Domain
+	backstage	BBC Backstage Licence
+	w3c	W3C Document License
