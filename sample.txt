@@ -18,5 +18,3 @@
 
 <XXX>
 	dct:title "Some page title"@en-gb .
-
-</XXX#subject> a skos:Concept ; rdfs:label "XXX"@en-gb .
